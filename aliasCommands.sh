@@ -40,7 +40,7 @@ function pokill() {
 }
 
 function cc() {
-  sudo nano ~/x-commands/.customCommands.sh
+  sudo nano ~/x-commands/aliasCommands.sh
 }
  
 function bc() {
@@ -48,7 +48,7 @@ function bc() {
 }
 
 function scc() {
-  source ~/z-commands/.customCommands.sh
+  source ~/x-commands/aliasCommands.sh
   echo "Alias Commands Refreshed... "
 }
  
